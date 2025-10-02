@@ -1,0 +1,15 @@
+Git Workflow 
+
+
+
+1) First clone a repository if needed from the remote repo to your local repo (a repository is a project space which contains all your meta data and project files and folders). 
+
+2) Make branches to your main branch to change any particular section of your code ( you can do this by the command- git branch 'branch-name' and to go into this branch you can type- git checkout 'branch-name'
+
+3) Make your changes 
+
+4) All of this is being done in the local repo , push this branch to the remote repo using push -u origin where origin is the default name given to your branch created 
+
+5) open a pull request to merge the changes to your main branch and merge the changes 
+
+6) finally pull the merged changes back into your local repo by using- git pull command 
